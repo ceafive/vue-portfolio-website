@@ -94,6 +94,7 @@
                 class="appearance-none block w-full bg-transparent font-thin text-white border-b border-devgray py-1 mb-3 leading-tight focus:outline-none"
                 required
                 id="grid-name"
+                name="name"
                 type="text"
                 placeholder="Jane Doe"
               />
@@ -108,6 +109,7 @@
                 class="appearance-none block w-full bg-transparent font-thin text-white border-b border-devgray py-1 mb-3 leading-tight focus:outline-none"
                 required
                 id="grid-email"
+                name="email"
                 type="email"
                 placeholder="jane.doe@mail.com"
               />
@@ -124,6 +126,7 @@
                 rows="5"
                 required
                 id="grid-message"
+                name="message"
                 placeholder="Hi there..."
               ></textarea>
             </div>
