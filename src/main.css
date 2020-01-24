@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.button-devred {
+  @apply bg-devgray inline-flex items-center
+}
+
+.button-devred:hover{
+@apply bg-white text-devgray
+}
+
+.button-devred:focus{
+  @apply outline-none
+}
