@@ -82,6 +82,7 @@
 
       <div class="w-full xl:w-1/2 p-8 xl:py-32 xl:px-20">
         <form name="contact" @submit.prevent="handleSubmit">
+          <input type="hidden" name="form-name" value="contact" />
           <div class="flex flex-wrap">
             <div class="w-full xl:w-1/2 xl:pr-2 mb-6">
               <label
