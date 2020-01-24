@@ -180,7 +180,7 @@ export default {
     },
     handleSubmit() {
       const axiosConfig = {
-        header: { "Content-Type": "application/x-www-form-urlencoded" }
+        headers: { "Content-Type": "application/x-www-form-urlencoded" }
       };
       axios
         .post(
